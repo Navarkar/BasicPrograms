@@ -51,3 +51,23 @@ public class Factexample
 		
 	}
 }
+
+*************Encapsulation*************
+
+package EncapExample;
+
+public class App3
+{
+	public static void main(String args[])
+	{
+		Student3 s=new Student3();
+		//s.setRollNo(101);
+		s.setName("varsha");
+		s.setRollNo(0);
+		System.out.println(s.getName());
+		System.out.println(s.getRollNo());
+		
+		     
+	}
+
+}
